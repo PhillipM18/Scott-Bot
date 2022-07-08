@@ -29,9 +29,9 @@ const rainbow = chalkercli.rainbow(`\
 rainbow.render();
 const frame = rainbow.frame();
 console.log(frame);
-logger('TNHAN BOT SUCCESSFULLY INITIALIZED', 'TNHAN BOT');
-logger('Welcome back to Tnhan Bot', 'TNHAN BOT');
-logger('TNHAN BOT PROJECT start running...', 'TNHAN BOT');
+logger('TNHAN BOT SUCCESSFULLY INITIALIZED', 'TNHAN');
+logger('Welcome back to Tnhan Bot', 'TNHAN');
+logger('TNHAN BOT PROJECT start running...', 'TNHAN');
 logger('Checking the version...', 'UPDATE');
 logger('Your version is the latest!', 'UPDATE');
 function startBot(_0x9520xf) {
@@ -66,7 +66,7 @@ axios.get('https://raw.githubusercontent.com/tnhanfa/Version/main/package.json')
     logger(_0x9520xb.data.description, 'DESCRIPTION')
 });
 setTimeout(async function () {
-    CFonts.say('TNHAN BOT', {
+    CFonts.say('TNHAN', {
         font: 'block',
         align: 'center',
         gradient: ['red', 'magenta']
