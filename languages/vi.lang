@@ -1,0 +1,104 @@
+# Nếu bạn muốn xuống dòng, hãy dùng\n. VD: JRT\nJRT
+# Sau khi thay đổi, bạn phải khởi động lại bot để có hiệu lực.
+# Đặt kí tự # ở đầu mỗi câu nếu bạn không muốn code chạy những dòng đó.
+# Thanks to JRT for translate to Vietnamese!
+
+# mirai.js
+
+mirai.errorFormat=Module không đúng định dạng!
+mirai.nameExist=Tên module bị trùng với một module mang cùng tên khác hãy mau kiểm tra lại
+mirai.notFoundLanguage=Module %1 không hỗ trợ ngôn ngữ ngôn ngữ của bạn
+mirai.notFoundPackage=Không tìm thấy package %1 hỗ trợ cho module %2, tiến hành cài đặt...
+mirai.cantInstallPackage=Không thể cài đặt package %1 cho module %2, lỗi: %3
+mirai.loadedPackage=Đã tải thành công toàn bộ package cho module %1
+mirai.loadedConfig=Đã tải thành công config cho module %1
+mirai.cantLoadConfig=Không thể tải config của module %1, lỗi: %2
+mirai.cantOnload=Không thể khởi chạy setup của module %1, lỗi: %1
+mirai.successLoadModule=Đã tải thành công module %1
+mirai.failLoadModule=Không thể tải thành công module %1, lỗi: %2
+mirai.finishLoadModule=Đã tải thành công %1 module commands và %2 module events
+mirai.foundPathAppstate=Đã tìm thấy file appstate
+mirai.notFoundPathAppstate=Không tìm thấy file appstate vui lòng kiểm tra lại
+mirai.checkListGban=Đang kiểm tra danh sách BANNED...
+mirai.banDevice=𝐇𝐢𝐞̣̂𝐧 𝐭𝐚̣𝐢 𝐭𝐡𝐢𝐞̂́𝐭 𝐛𝐢̣ 𝐜𝐮̉𝐚 𝐛𝐚̣𝐧 đ𝐚̃ 𝐛𝐢̣ 𝐛𝐚𝐧 𝐤𝐡𝐨̉𝐢 𝐁𝐨𝐭 𝐭𝐧𝐡𝐚𝐧, 𝐥𝐢𝐞̂𝐧 𝐡𝐞̣̂ 𝐭𝐨̛́𝐢 𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐡𝐭𝐭𝐩𝐬://𝐰𝐰𝐰.𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤.𝐜𝐨𝐦/𝐭𝐧𝐡𝐚𝐧𝐭𝐥!!!
+mirai.keyNotSameFormat=Dữ liệu bạn nhập phải là một dãy số bao gồm 6 chữ số!
+mirai.codeInputExpired=Code bạn nhập không trùng khớp hoặc đã hết hạn!
+mirai.unbanDeviceSuccess=𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐃 𝐜𝐮̉𝐚 𝐛𝐚̣𝐧 đ𝐚̃ đ𝐮̛𝐨̛̣𝐜 𝐠𝐨̛̃ 𝐛𝐚𝐧, 𝐡𝐚̃𝐲 𝐤𝐡𝐨̛̉𝐢 đ𝐨̣̂𝐧𝐠 𝐥𝐚̣𝐢 đ𝐞̂̉ 𝐜𝐨́ 𝐭𝐡𝐞̂̉ 𝐭𝐢𝐞̂́𝐩 𝐭𝐮̣𝐜 𝐬𝐮̛̉ 𝐝𝐮̣𝐧𝐠 𝐁𝐨𝐭 𝐭𝐧𝐡𝐚𝐧!!!
+mirai.userBanned=𝐁𝐚̣𝐧 đ𝐚̃ 𝐛𝐢̣ 𝐛𝐚𝐧 𝐤𝐡𝐨̉𝐢 𝐁𝐨𝐭 𝐭𝐧𝐡𝐚𝐧 𝐯𝐚̀𝐨 𝐥𝐮́𝐜 %1 𝐯𝐨̛́𝐢 𝐥𝐲́ 𝐝𝐨: %2.\n𝐕𝐮𝐢 𝐥𝐨̀𝐧𝐠 𝐥𝐢𝐞̂𝐧 𝐡𝐞̣̂ 𝐀𝐃𝐌𝐈𝐍 𝐪𝐮𝐚:\n📌𝐅𝐁: https://www.facebook.com/tnhantl\n đ𝐞̂̉ 𝐛𝐢𝐞̂́𝐭 𝐭𝐡𝐞̂𝐦 𝐜𝐡𝐢 𝐭𝐢𝐞̂́𝐭!
+mirai.finishCheckListGban=Đã kiểm tra xong danh sách BANNED
+mirai.handleListenError=handleListener đã xảy ra một số lỗi không mong muốn, lỗi: %1
+mirai.warningSourceCode=\n𝐁𝐨𝐭 𝐭𝐧𝐡𝐚𝐧 𝐮𝐩𝐝𝐚𝐭𝐞 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞!!!
+mirai.refreshListen=Đ𝐚̃ 𝐥𝐚̀𝐦 𝐦𝐨̛́𝐢 𝐥𝐚̣𝐢 𝐡𝐚𝐧𝐝𝐥𝐞𝐋𝐢𝐬𝐭𝐞𝐧𝐞𝐫...
+mirai.successConnectDatabase=𝐃𝐮̛̃ 𝐥𝐢𝐞̣̂𝐮 𝐁𝐨𝐭 𝐭𝐧𝐡𝐚𝐧 đ𝐚̃ đ𝐮̛𝐨̛̣𝐜 𝐤𝐞̂́𝐭 𝐧𝐨̂́𝐢 𝐭𝐡𝐚̀𝐧𝐡 𝐜𝐨̂𝐧𝐠!!
+mirai.failConnectDatabase=𝐃𝐮̛̃ 𝐥𝐢𝐞̣̂𝐮 𝐁𝐨𝐭 𝐭𝐧𝐡𝐚𝐧 đ𝐚̃ đ𝐮̛𝐨̛̣𝐜 𝐤𝐞̂́𝐭 𝐧𝐨̂́𝐢 𝐭𝐡𝐚̂́𝐭 𝐛𝐚̣𝐢!!, 𝐥𝐨̂̃𝐢: %1. 𝐕𝐮𝐢 𝐥𝐨̀𝐧𝐠 𝐡𝐚̃𝐲 𝐤𝐢𝐞̂̉𝐦 𝐭𝐫𝐚 𝐥𝐚̣𝐢!!
+
+# includes/listen.js
+
+listen.startLoadEnvironment=Tiến hành khởi tạo cấu trúc Bot tnhan!
+listen.loadedEnvironmentThread=Đã khởi tạo thành công cấu trúc nhóm dùng Bot tnhan!!!
+listen.loadedEnvironmentUser=Đã khởi tạo thành công cấu trúc người dùng Bot tnhan!!!
+listen.successLoadEnvironment=Đã khởi tạo thành công cấu trúc Bot tnhan thành công!!!
+listen.failLoadEnvironment=Khởi tạo cấu trúc Bot tnhan không thành công, lỗi: %1
+
+# includes/controller/currencies.js
+
+currencies.needObjectOrArray=Phải là một Array hoặc Object hoặc có thể là cả hai
+currencies.needObject=Phải là một Object
+currencies.needNumber= Phải là một con số
+
+# includes/controller/threads.js
+
+threads.needObjectOrArray=Phải là một Array hoặc Object hoặc có thể là cả hai
+threads.needObject=Phải là một Object
+
+# includes/controller/users.js
+
+users.needObjectOrArray=Phải là một Array hoặc Object hoặc có thể là cả hai
+users.needObject=Phải là một Object
+
+# includes/handle/handleCommand.js
+
+handleCommand.userBanned=(\_/)\n(•.•)\n(>🧠 Đ𝐮̛𝐚 𝐧𝐚̃𝐨 𝐜𝐡𝐨 𝐜𝐚̣̂𝐮 𝐥𝐚̆́𝐩 𝐯𝐚̀𝐨 𝐧𝐞̀.[🐧] 𝐛𝐚̣𝐧 𝐭𝐡𝐚̣̂𝐭 𝐧𝐠𝐮 𝐧𝐠𝐨̂́𝐤 𝐯𝐢̀ đ𝐚̃ đ𝐞̂̉ 𝐛𝐢̣ 𝐛𝐚𝐧!\n𝐃𝐮̀𝐧𝐠 𝐥𝐞̣̂𝐧𝐡 [ %2𝐜𝐚𝐥𝐥𝐚𝐝 + 𝐧𝐨̣̂𝐢 𝐝𝐮𝐧𝐠 ] đ𝐞̂̉ 𝐱𝐢𝐧 𝐚̂𝐧 𝐱𝐚́ 𝐧𝐞̀.\n%1\n%2
+handleCommand.threadBanned=[🐧] 𝐧𝐡𝐨́𝐦 𝐜𝐮̉𝐚 𝐛𝐚̣𝐧 𝐭𝐡𝐚̣̂𝐭 𝐧𝐠𝐮 𝐧𝐠𝐨̂́𝐤 𝐯𝐢̀ đ𝐚̃ đ𝐞̂̉ 𝐛𝐢̣ 𝐛𝐚𝐧!\n𝐃𝐮̀𝐧𝐠 𝐥𝐞̣̂𝐧𝐡 [ %2𝐜𝐚𝐥𝐥𝐚𝐝 + 𝐧𝐨̣̂𝐢 𝐝𝐮𝐧𝐠 ] đ𝐞̂̉ 𝐱𝐢𝐧 𝐚̂𝐧 𝐱𝐚́ 𝐧𝐞̀.\n%1\n%2
+handleCommand.commandNotExist=(\_/)\n(•.•)\n(>🧠 Đ𝐮̛𝐚 𝐧𝐚̃𝐨 𝐜𝐡𝐨 𝐜𝐚̣̂𝐮 𝐥𝐚̆́𝐩 𝐯𝐚̀𝐨 𝐧𝐞̀.\n[🐧] 𝐋𝐞̣̂𝐧𝐡 𝐛𝐚̣𝐧 𝐬𝐮̛̉ 𝐝𝐮̣𝐧𝐠 𝐤𝐡𝐨̂𝐧𝐠 𝐭𝐨̂̀𝐧 𝐭𝐚̣𝐢, 𝐜𝐨́ 𝐩𝐡𝐚̉𝐢 𝐥𝐚̀ 𝐥𝐞̣̂𝐧𝐡 "%1" 𝐡𝐚𝐲 𝐤𝐡𝐨̂𝐧𝐠?
+handleCommand.commandThreadBanned=[🐧] 𝐧𝐡𝐨́𝐦 𝐜𝐮̉𝐚 𝐛𝐚̣𝐧 đ𝐚̃ 𝐛𝐢̣ 𝐜𝐚̂́𝐦 𝐝𝐮̀𝐧𝐠 𝐥𝐞̣̂𝐧𝐡 "%1"\n
+handleCommand.commandUserBanned=[🐧] 𝐛𝐚̣𝐧 đ𝐚̃ 𝐛𝐢̣ 𝐜𝐚̂́𝐦 𝐝𝐮̀𝐧𝐠 𝐥𝐞̣̂𝐧𝐡 "%1"\n
+handleCommand.threadNotAllowNSFW=[🐧] 𝐍𝐡𝐨́𝐦 𝐜𝐮̉𝐚 𝐛𝐚̣𝐧 𝐤𝐡𝐨̂𝐧𝐠 đ𝐮̛𝐨̛̣𝐜 𝐩𝐡𝐞́𝐩 𝐬𝐮̛̉ 𝐝𝐮̣𝐧𝐠 𝐧𝐡𝐮̛̃𝐧𝐠 𝐥𝐞̣̂𝐧𝐡 𝐜𝐚̂́𝐦 𝐍𝐒𝐅𝐖 𝐯𝐢̀ 𝐧𝐨́ 𝐜𝐡𝐮̛́𝐚 𝐧𝐨̣̂𝐢 𝐝𝐮𝐧𝐠 𝟏𝟖+ 
+handleCommand.cantGetInfoThread=[🐧] 𝐊𝐡𝐨̂𝐧𝐠 𝐭𝐡𝐞̂̉ 𝐥𝐚̂́𝐲 𝐭𝐡𝐨̂𝐧𝐠 𝐭𝐢𝐧 𝐜𝐮̉𝐚 𝐧𝐡𝐨́𝐦, 𝐥𝐨̂̃𝐢: %1
+handleCommand.permssionNotEnough=[🐧] 𝐗𝐢𝐧 𝐥𝐨̂̃𝐢 𝐯𝐢̀ 𝐛𝐚̣𝐧 𝐥𝐚̀ 𝐭𝐡𝐚̀𝐧𝐡 𝐧𝐞̂𝐧 𝐥𝐞̣̂𝐧𝐡 "%1" 𝐬𝐞̃ 𝐤𝐡𝐨̂𝐧𝐠 𝐡𝐨𝐚̣𝐭 đ𝐨̣̂𝐧𝐠. 𝐂𝐡𝐢̉ 𝐜𝐨́ 𝐪𝐮𝐚̉𝐧 𝐭𝐫𝐢̣ 𝐯𝐢𝐞̂𝐧 𝐡𝐨𝐚̣̆𝐜 𝐀𝐝𝐦𝐢𝐧 𝐝𝐮̀𝐧𝐠 đ𝐮̛𝐨̛̣𝐜 ❤️
+handleCommand.cantSetMessageReaction=[🐧] Đ𝐚̃ 𝐜𝐨́ 𝐥𝐨̂̃𝐢 𝐱𝐚̉𝐲 𝐫𝐚 𝐤𝐡𝐨̂𝐧𝐠 𝐦𝐨𝐧𝐠 𝐦𝐮𝐨̂́𝐧 𝐭𝐚̣𝐢 setMessageReaction, 𝐥𝐨̂̃𝐢: %1
+handleCommand.notFoundLanguage=[🐧] 𝐊𝐡𝐨̂𝐧𝐠 𝐭𝐢̀𝐦 𝐭𝐡𝐚̂́𝐲 𝐧𝐠𝐨̂𝐧 𝐧𝐠𝐮̛̃ 𝐡𝐨̂̃ 𝐭𝐫𝐨̛̣ 𝐜𝐡𝐨 𝐦𝐨𝐝𝐮𝐥𝐞 %1s
+handleCommand.executeCommand=» %1 « 𝐋𝐞̣̂𝐧𝐡 𝐬𝐮̛̉ 𝐝𝐮̣𝐧𝐠: %2 𝐛𝐨̛̉𝐢 𝐧𝐠𝐮̛𝐨̛̀𝐢 𝐝𝐮̀𝐧𝐠: %3 𝐭𝐚̣𝐢 𝐧𝐡𝐨́𝐦: %4 | 𝐀𝐫𝐠𝐬 đ𝐢 𝐤𝐞̀𝐦: %5 | 𝐓𝐡𝐨̛̀𝐢 𝐠𝐢𝐚𝐧 𝐱𝐮̛̉ 𝐥𝐲́: %6ms
+handleCommand.commandError=[🐧] Đ𝐚̃ 𝐱𝐚̉𝐲 𝐫𝐚 𝐥𝐨̂̃𝐢 𝐤𝐡𝐨̂𝐧𝐠 𝐦𝐨𝐧𝐠 𝐦𝐮𝐨̂́𝐧 𝐭𝐫𝐨𝐧𝐠 𝐤𝐡𝐢 𝐭𝐡𝐮̛̣𝐜 𝐭𝐡𝐢 𝐥𝐞̣̂𝐧𝐡 %1, 𝐥𝐨̂̃𝐢: %2
+
+# includes/handle/handleCommandEvent.js
+
+handleCommandEvent.moduleError=Đã xảy ra lỗi không mong muốn tại lệnh %1, lỗi: %2
+
+# includes/handle/handleCreateDatabase.js
+
+handleCreateDatabase.newThread=%1
+handleCreateDatabase.newUser=%1
+
+# includes/handle/handleEvent.js
+
+handleEvent.executeEvent=» %1 « Event được thực thi: %2 tại nhóm: %3 | Thời gian xử lý: %4ms
+handleEvent.eventError=Đã xảy ra lỗi không mong muốn trong khi thực thi event %1, lỗi: %12
+
+# includes/handle/handleReaction.js
+
+handleReaction.missingValue=Thiếu dữ liệu để có thể thực thi phản hồi lại câu trả lời của bạn
+handleReaction.executeError=Đã xảy ra lỗi không mong muốn khi đang thực thi trả lời câu hỏi bạn, lỗi: %1
+
+# includes/handle/handleReply.js
+
+handleReply.missingValue=Thiếu dữ liệu để có thể thực thi phản hồi lại câu trả lời của bạn
+handleReply.executeError=Đã xảy ra lỗi không mong muốn khi đang thực thi trả lời câu hỏi bạn, lỗi: %1
+
+# includes/handle/handleSchedule.js
+
+handleSchedule.exectuteError=Đã xảy ra lỗi không mong muốn trong lúc schedule tại module %1, lỗi: %2
+
+# utils/index.js
+
+utils.throwError=[🐧] » Dùng lệnh sai rồi bạn ơi vui lòng sử dụng %1help %2 để biết thêm hướng dẫn sử dụng bot.\n
